@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ohtori Snake</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <section class="snake-wrap">
+  <aside class="sidebar">
+    <h1>Simple Snake</h1>
+    <h2 class="subtitle">Game Controls:</h2>
+    <p>1. To Start Game or Pause/Continue press Space</p>
+    <div class="control-img">
+      <img src="./images/space.svg" class="space-icon" alt="">
+    </div>
+    <p>2. To change Move Direction use Keyboard Arrows</p>
+    <div class="control-img">
+      <img src="./images/arrows.png" alt="">
+    </div>
+    <p>3. If You lose press "Enter" to restart</p>
+    <h2 class="result-title">Score/ Level: </h2>
+    <p class="score">0/0</p>
+    <h2 class="record-title">Record: </h2>
+    <p class="record">0</p>
+  </aside>
+  <div class="canvas-wrap">
+    <div class="pause-box">
+      <p>Press "Space" to start or continue Game</p>
+    </div>
+    <canvas id='snake-canvas'></canvas>
+  </div>
+  </section>
+  <script src="./js/draw.js"></script>
+</body>
+</html>
