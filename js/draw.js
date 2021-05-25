@@ -219,5 +219,3 @@ function generateGameOverMsg() {
   ? `Congrats, you broke the record with ${userScore} score . To restart game press "Enter"`
   : `You lose with ${userScore} points. To restart game press "Enter"`
 }
-
-//Test comment 
